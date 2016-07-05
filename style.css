@@ -55,6 +55,10 @@ hr {
 	color: #fff;
 }
 
+.hide {
+	display: none;
+}
+
 .checkout .button {
 	padding-top: 30px;
 }
@@ -218,6 +222,28 @@ hr {
 .checkout > * {
 	display: block;
 	vertical-align: top;
+}
+
+.shopping-cart-quantity-input {
+	width: 15px;
+}
+
+.show-hide-button {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.show-hide-button button {
+	background-color: orange;
+	border:none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.show-hide-button button:hover {
+	background-color: #FF8600;
 }
 
 .home-button button {

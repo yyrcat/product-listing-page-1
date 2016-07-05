@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+<!-- Product listing -->
+
 	<div class="container">
 		<div class="product-listing">
 			<div class="title">
@@ -14,152 +17,170 @@
 			<div class="category">
 				<a href="">Computers</a> > <a href="">Apple</a>   
 			</div>
-			<div class="product">
+			<div class="product" id="mb">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<h3>MacBook</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p>
+					<div>
+						<h3 class="product-name">MacBook</h3>
+					</div>
+					<div class="product-description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a>
+					</p>
+					</div>
 				</div>	
 				<div class="price-add">
-					<div class="price"><span>$1299</span></div>
+					<div class="price">		
+						<span>$1299</span>
+					</div>
 					<div class="add-to-cart">
-						<input type="text" placeholder="1">
-						<button>Add to Cart</button>
+						<input class="product-quantity" type="text" placeholder="1">
+						<button onclick="addItem('mb')">Add to Cart</button>
 					</div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="mbair11">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>MacBook Air 11-inch</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+						<h3 class="product-name">MacBook Air 11-inch</h3></div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price">
 						<span>$899</span>
 					</div>
 					<div class="add-to-cart">
-						<input type="text" placeholder="1">
-						<button>Add to Cart</button>
+						<input class="product-quantity" type="text" placeholder="1">
+						<button onclick="addItem('mbair11')">Add to Cart</button>
 					</div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="mbair13">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header">
-						<h3>MacBook Air 13-inch</h3>
+					<div>
+						<h3 class="product-name">MacBook Air 13-inch</h3>
 					</div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price">
 						<span>$999</span>
 					</div>
 					<div class="add-to-cart">
-						<input type="text" placeholder="1">
-						<button>Add to Cart</button>
+						<input class="product-quantity" type="text" placeholder="1">
+						<button onclick="addItem('mbair13')">Add to Cart</button>
 					</div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="mbp13">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>MacBook Pro 13-inch</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+					<h3 class="product-name">MacBook Pro 13-inch</h3></div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price">
 						<span>$1099</span>
 					</div>
 					<div class="add-to-cart">
-						<input type="text" placeholder="1">
-						<button>Add to Cart</button>
+						<input class="product-quantity" type="text" placeholder="1">
+						<button onclick="addItem('mbp13')">Add to Cart</button>
 					</div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="mbp13ret">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>MacBook Pro 13-inch with Retina Display</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+					<h3 class="product-name">MacBook Pro 13-inch with Retina Display</h3></div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price"><span>$1299</span></div>
-					<div class="add-to-cart"><input type="text" placeholder="1">
-					<button>Add to Cart</button></div>
+					<div class="add-to-cart"><input class="product-quantity" type="text" placeholder="1">
+					<button onclick="addItem('mbp13ret')">Add to Cart</button></div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="mbp15ret">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>MacBook Pro 15-inch with Retina Display</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+					<h3 class="product-name">MacBook Pro 15-inch with Retina Display</h3></div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price"><span>$1999</span></div>
-					<div class="add-to-cart"><input type="text" placeholder="1">
-					<button>Add to Cart</button></div>
+					<div class="add-to-cart"><input class="product-quantity" type="text" placeholder="1">
+					<button onclick="addItem('mbp15ret')">Add to Cart</button></div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="imac21">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>iMac 21.5-inch</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+						<h3 class="product-name">iMac 21.5-inch</h3>
+					</div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price"><span>$1099</span></div>
 					<div class="add-to-cart">
-						<input type="text" placeholder="1">
-					<button>Add to Cart</button>
+						<input class="product-quantity" type="text" placeholder="1">
+					<button onclick="addItem('imac21')">Add to Cart</button>
 					</div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="imac21ret">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>iMac 21.5-inch with Retina 4K Display</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+						<h3 class="product-name">iMac 21.5-inch with Retina 4K Display</h3>
+					</div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price"><span>$1499</span></div>
-					<div class="add-to-cart"><input type="text" placeholder="1">
-					<button>Add to Cart</button></div>
+					<div class="add-to-cart"><input class="product-quantity" type="text" placeholder="1">
+					<button onclick="addItem('imac21ret')">Add to Cart</button></div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="imac24ret">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>iMac 24.5-inch with Retina 5K Display</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+						<h3 class="product-name">iMac 24.5-inch with Retina 5K Display</h3>
+					</div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price"><span>$1799</span></div>
-					<div class="add-to-cart"><input type="text" placeholder="1">
-					<button>Add to Cart</button></div>
+					<div class="add-to-cart"><input class="product-quantity" type="text" placeholder="1">
+					<button onclick="addItem('imac24ret')">Add to Cart</button></div>
 				</div>
 			</div>
 			<div class="hr"><hr></div>
-			<div class="product">
+			<div class="product" id="macpro">
 				<div class="img"><img src="http://placehold.it/140x100" alt=""></div>
 				<div class="product-specification">
-					<div class="header"><h3>Mac Pro</h3></div>
-					<div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
+					<div>
+						<h3 class="product-name">Mac Pro</h3></div>
+					<div class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Learn More...</a></p></div>
 				</div>	
 				<div class="price-add">
 					<div class="price"><span>$2999</span></div>
 					<div class="add-to-cart">
-						<input type="text" placeholder="1">
-						<button>Add to Cart</button>
+						<input class="product-quantity" type="text" placeholder="1">
+						<button onclick="addItem('macpro')">Add to Cart</button>
 					</div>
 				</div>
 			</div>
@@ -179,76 +200,48 @@
 			</div>
 		</div>
 
-		<div class="shopping-cart">
+<!-- Show/hide shopping cart -->
+
+		<div class="show-hide-button">
+			<button id="toggle" class="hide" onclick="showHide(shoppingCart)">Hide Shopping Cart</button>
+		</div>
+
+<!-- Shopping cart -->
+
+		<div id="shopping-cart" class="shopping-cart hide" tabindex="-1">
 			<div class="title">
 				<h2>Shopping Cart</h2>
 			</div>
-			<div class="product1">
-				<div class="img">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=12&txt=110%C3%9775&w=110&h=75" alt="">
-				</div>
-				<div class="product-description">
-					<h4>MacBook</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="product-total">
-					<div class="price"><span>$1299</span></div>
-					<div class="button"><button>Remove</button></div>
-				</div>
-			</div>
-			<div class="hr"><hr></div>
-			<div class="product2">
-				<div class="img">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=12&txt=110%C3%9775&w=110&h=75" alt="">
-				</div>
-				<div class="product-description">
-					<h4>Mac Pro</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="product-total">
-					<div class="price"><span>$2999</span></div>
-					<div class="button"><button>Remove</button></div>
-				</div>
-			</div>
-			<div class="hr"><hr></div>
-			<div class="product3">
-				<div class="img">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=12&txt=110%C3%9775&w=110&h=75" alt="">
-				</div>
-				<div class="product-description">
-					<h4>iMac 21.5-inch</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="product-total">
-					<div class="price">
-						<span>$1099</span>
-					</div>
-					<div class="button">
-						<button>Remove</button>
-					</div>
-				</div>
+			
+			<div id="shopping-items">
+				
 			</div>
 			<div class="checkout">
-					<div class="promo">
-						<label for="">Promo Code:</label>
-						<input type="text" placeholder="AABBCC">
-					</div>
-					<div class="subtotal">
-						<label>Subtotal:</label>
-						<input type="text" placeholder="$5397">
-					</div>	
+				<div class="promo">
+					<label for="">Promo Code:</label>
+					<input type="text" id="user-promo" oninput="calculatePromo()">
+				</div>
+				<div class="subtotal">
+					<label>Subtotal:</label>
+					<input type="text" id="subtotal">
+				</div>	
 				<div class="button">
 					<button>Keep Shoping</button>
 					<button class="checkout-button">Checkout</button>
 				</div>
 			</div>
 		</div>
+		
 	</div>
+
+<!-- Return to homepage -->
+
 	<div class="home-button">
 			<a href="http://brentguf.github.io/home-page/">
 				<button>< Back to Home</button>
 			</a>
 	</div>
-
+	<script src="utilities.js"></script>
+	<script src="script.js"></script> 
 </body>
 </html>
