@@ -72,7 +72,7 @@ function addItem(id) {
 	// Regenerate shopping cart HTML and subtotal
 	calculateSubtotal();
     generateShoppingCartHTML();
-
+    shoppingCart.focus()
 }
 
 // Activate removeItem() function if user click Remove button
