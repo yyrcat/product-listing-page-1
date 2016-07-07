@@ -130,4 +130,10 @@ find: (function(list, id) {
       })
       .indexOf(id);
 
+}),
+findByProductName: (function (list, name) {
+		return list.map(function(x) {
+			return x.name;
+		})
+		.indexOf(name);
 })};
