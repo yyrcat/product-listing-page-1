@@ -46,13 +46,19 @@ hr {
 	font-size: 14px;
 }
 
-.add-to-cart button:hover {
-	background-color: #ffc900;
+.add-to-cart button {
+	background-color: orange;
+	color: white;
 }
 
-.product-total button:hover {
+.remove {
 	background-color: #ef473a;
 	color: #fff;
+}
+
+.change-quantity {
+	background-color: #999;
+	color: white;
 }
 
 .hide {
@@ -64,14 +70,14 @@ hr {
 }
 
 .checkout .button button {
-	background-color: #7F00FF;
+	background-color: #999;
 	color: white;
 	font-size: 16px;
 	padding: 8px;
 }
 
 .checkout .button button:hover {
-	background-color: #4100cd;
+	background-color: #555;
 }
 
 .container {
@@ -219,12 +225,28 @@ hr {
 	display: block;
 }
 
+.buttons > * {
+	margin-left: 4px;
+}
+
+.buttons .remove {
+	margin-top: 5px;
+}
+
+.product-total .button {
+	padding-bottom: 10px;
+}
+
 .checkout > * {
 	display: block;
 	vertical-align: top;
 }
 
-.shopping-cart-quantity-input {
+.checkout button {
+	padding-bottom: 4px;
+}
+
+.quantity-input {
 	width: 15px;
 }
 

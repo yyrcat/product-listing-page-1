@@ -12,7 +12,6 @@ var cart = {
     }  
 };
 
-
 // Toggle show/hide cart w/ button
 
 var shoppingCart = document.getElementById("shopping-cart");
@@ -178,7 +177,7 @@ function generateShoppingCartHTML() {
 	itemsInShoppingCart.innerHTML = "";
 
 	for (var i = 0; i < cart.items.length; i++) {
-		itemsInShoppingCart.innerHTML += '<div class="product" id="product' + cart.items.length + '"><div class="img"><img src="https://placeholdit.imgix.net/~text?txtsize=12&txt=110%C3%9775&w=110&h=75" alt=""></div><div class="product-description"><h4>' + cart.items[i].name + '</h4><p>' + cart.items[i]["short-product-description"] + '</p></div><div class="product-total"><div class="price"><span>$' + cart.items[i].price + '</span></div><div class="button"><input class="quantity-input" id="' + cart.items[i].inputFieldId + '" value="' + cart.items[i].count + '"></input><button class="change-quantity">Change Quantity</button><button class="remove">Remove</button></div></div></div>'
+		itemsInShoppingCart.innerHTML += '<div class="product" id="product' + cart.items.length + '"><div class="img"><img src="https://placeholdit.imgix.net/~text?txtsize=12&txt=110%C3%9775&w=110&h=75" alt=""></div><div class="product-description"><h4>' + cart.items[i].name + '</h4><p>' + cart.items[i]["short-product-description"] + '</p></div><div class="product-total"><div class="price"><span>$' + cart.items[i].price + '</span></div><div class="buttons"><input class="quantity-input" id="' + cart.items[i].inputFieldId + '" value="' + cart.items[i].count + '"></input><button class="change-quantity">Change Qty.</button><button class="remove">Remove</button></div></div></div>'
 	}
 
 }
