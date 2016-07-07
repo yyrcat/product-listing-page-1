@@ -51,6 +51,11 @@ hr {
 	color: white;
 }
 
+.add-to-cart button:hover {
+	background-color: #FF8600;
+}
+
+
 .remove {
 	background-color: #ef473a;
 	color: #fff;
@@ -76,9 +81,18 @@ hr {
 	padding: 8px;
 }
 
+#checkout-button {
+	background-color: #7D9EC0;
+}
+
+#checkout-button:hover {
+	background-color: #104E8B;
+}
+
 .checkout .button button:hover {
 	background-color: #555;
 }
+
 
 .container {
 	position: absolute;
@@ -183,19 +197,6 @@ hr {
 	padding-left: 70px;	
 }
 
-.product3 {
-	padding-bottom: 40px;
-}
-
-.product1, .product2, .product3 {
-	padding-top: 15px;
-}
-
-.product1 > *, .product2 > *, .product3 > * {
-	display: inline-block;
-	vertical-align: top;
-}
-
 .subtotal, .promo, .checkout .button {
 	text-align: right;
 }
@@ -229,8 +230,17 @@ hr {
 	margin-left: 4px;
 }
 
+.buttons .change-quantity:hover {
+	background-color: #555;
+}
+
 .buttons .remove {
 	margin-top: 5px;
+}
+
+.buttons .remove:hover {
+	background-color: #CD0000;
+
 }
 
 .product-total .button {
